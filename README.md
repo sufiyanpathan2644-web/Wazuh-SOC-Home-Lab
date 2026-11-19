@@ -135,12 +135,12 @@ Windows 11 endpoint successfully registered and active in Wazuh.
 ### 3. Failed Logon Event in Windows Event Viewer
 Windows Security Event ID 4625 generated during a controlled failed authentication test.
 
-![Failed Logon Event](screenshots/03-failed-logon-event.png)
+![Failed Logon Event](screenshots/03-failed-logon-detected.png)
 
 ### 4. Windows Event Details
 Detailed investigation of Event ID 4625, including logon information and failure details.
 
-![Windows Event Details](screenshots/04-windows-event-details.png)
+![Windows Event Details](screenshots/04-event-details.png)
 
 ### 5. Wazuh Detection
 Wazuh detected the failed logon and generated an alert:
